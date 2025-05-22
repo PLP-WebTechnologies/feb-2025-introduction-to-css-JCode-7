@@ -6,7 +6,7 @@
     --font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
   
-  /* Reset and Base Styles */
+  
   * {
     margin: 0;
     padding: 0;
@@ -18,12 +18,12 @@
     font-family: var(--font-family);
     background-color: var(--white);
     color: var(--brown);
-    overflow: hidden; /* Prevent scrolling */
+    overflow: hidden;
     display: flex;
     flex-direction: column;
   }
   
-  /* Header Styles */
+  
   header {
     background-color: var(--brown);
     color: var(--white);
@@ -42,7 +42,7 @@
     font-size: 1.1em;
   }
   
-  /* Main Content Area */
+  
   main {
     flex: 1 0 auto;
     display: flex;
@@ -52,7 +52,7 @@
     padding: 1rem;
   }
   
-  /* Car Showcase Section */
+ 
   .car-showcase {
     background-color: var(--white);
     padding: 1rem;
@@ -80,7 +80,7 @@
     color: var(--brown);
   }
   
-  /* Footer Styles */
+  
   footer {
     background-color: var(--brown);
     color: var(--white);
