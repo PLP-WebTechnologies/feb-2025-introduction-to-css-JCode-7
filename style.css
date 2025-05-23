@@ -4,6 +4,7 @@
     --light-brown: #b56906;  
     --white: #FFFFFF;
     --font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     --spacing: 1rem;
   }
   
   
@@ -93,4 +94,30 @@
     color: var(--white);
     text-decoration: underline;
   }
-  
+
+  footer a:hover {
+  color: var(--light-brown);
+  text-decoration: none;
+}
+
+@media (max-width: 600px) {
+  .car-showcase {
+    padding: 0.5rem;
+  }
+  #main-title {
+    font-size: 2em;
+  }
+}
+
+.car-image {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+  .car-showcase {
+  padding: var(--spacing);
+  margin: var(--spacing);
+}
+
+html {
+  scroll-behavior: smooth;
+}
